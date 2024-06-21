@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+    font-size: 24px;
+    font-family: "Gill Sans", sans-serif;
+    background: moccasin;
+}
+header{
+ width: 100%;
+ height: 100%;
+}
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background: moccasin;
+  margin: 20px;
+  padding: 10px;
+}
+.card {
+  margin: 20px 20px;
+  padding: 10px 10px;
+}
+footer {
+ grid-column: 1/-1;
+ height: 300px;
+ background: black;
+ color: white;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+a {
+  color: white;
+}
+iframe {
+  display: grid;
+  grid-column: 1 / -1;
+  width: 100%;
+  height: 50vh;
+  margin-top: 20px;
+}
